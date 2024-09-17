@@ -1,0 +1,20 @@
+{
+  "name": "bridge_automation_test_task",
+  "version": "1.0.0",
+  "description": "Test task for simulating bridge automation using Hardhat",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "compile": "hardhat compile",
+    "run": "hardhat run --network localhost scripts/bridge-transaction.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "dotenv": "^16.4.5",
+    "ethers": "5.7.2",
+    "hardhat": "^2.19.2"
+  }
+}
